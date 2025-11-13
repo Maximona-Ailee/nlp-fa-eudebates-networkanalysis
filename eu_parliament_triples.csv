@@ -1,0 +1,48 @@
+Subject,Predicate,Object
+Maria_EPP,member_of,EPP
+Jean_SD,member_of,S&D
+Anna_Greens,member_of,Greens
+Peter_ECR,member_of,ECR
+Lisa_Renew,member_of,Renew
+Maria_EPP,mentions,economy
+Maria_EPP,mentions,digital
+Jean_SD,mentions,climate
+Jean_SD,mentions,social
+Anna_Greens,mentions,climate
+Anna_Greens,mentions,environment
+Peter_ECR,mentions,economy
+Peter_ECR,mentions,sovereignty
+Lisa_Renew,mentions,digital
+Lisa_Renew,mentions,economy
+Test Speaker,belongs_to_party,Greens
+Test Speaker,has_sentiment_toward_eu,neutral
+Test Speaker,discusses_topic,energy policy
+Test Speaker,discusses_topic,climate change
+Test Speaker,discusses_topic,social justice
+climate,is_subtopic_of,environmental_policy
+environment,is_subtopic_of,environmental_policy
+energy policy,is_subtopic_of,environmental_policy
+economy,is_subtopic_of,economic_policy
+digital,is_subtopic_of,technology_policy
+social,is_subtopic_of,social_policy
+sovereignty,is_subtopic_of,governance_policy
+EPP,political_orientation,center_right
+S&D,political_orientation,center_left
+Greens,political_orientation,left
+ECR,political_orientation,right
+Renew,political_orientation,center
+Test Speaker,has_sentiment,neutral
+Test Speaker,supports_policy,European Green Deal
+network,total_nodes,16
+network,total_edges,15
+network,total_speakers,5
+network,total_parties,5
+network,total_topics,8
+economy,degree_centrality,high
+climate,degree_centrality,high
+digital,degree_centrality,medium
+EPP,topic_diversity,2
+S&D,topic_diversity,2
+Greens,topic_diversity,2
+ECR,topic_diversity,2
+Renew,topic_diversity,2
